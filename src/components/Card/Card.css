@@ -1,0 +1,73 @@
+#root {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.apartments {
+    
+    gap: 2rem;
+    padding:6rem;
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.apartments-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 550px);
+    background-color: rgb(255, 255, 255);
+    gap:1.5rem;
+    justify-content:space-between;
+    
+}
+
+.details {
+    
+    display: flex;
+    align-items: center;
+    color:gray;
+    font-size: 15px;
+    
+}
+
+
+.title-apartment {
+    margin-top: -0.1cm;
+}
+
+.apartment-card {
+    
+    border-radius: 2rem;
+    font-size: 12px;
+}
+
+.photo-card {
+    align-items: center;
+    display:inline-block;
+    justify-content:space-between;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.photo-card img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.star {
+    color:rgb(245, 216, 50);
+    margin-left: auto;
+}
+.superhost-badge {
+    display: inline-block;
+    
+    margin-right: 0.2cm;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 4px 8px; 
+    border: 2px solid #333;
+
+  }

@@ -1,0 +1,86 @@
+#root {
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav {
+    margin: 3rem;
+    margin-left: 6rem;
+    align-items: center;
+    display: flex;
+    
+   
+}
+
+.main-logo img {
+    height: 0.6cm;
+    
+}
+
+.open-modal {
+    margin-left: auto;
+}
+.button-modal {
+    margin-right: 4rem;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 2rem;
+    border: 0;
+    align-items: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 1rem;
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-container h3 {
+    margin: 0; 
+    position: relative; 
+    padding-right: 10px; 
+  }
+  
+  .flex-container h3::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px; 
+    background-color: #ccc; 
+    right: 0;
+    top: 0;
+  }
+  
+  
+  
+  .flex-container .lupa {
+    font-size: 14px; 
+    color: #bdb9b9; 
+    margin-left: 20px; 
+  }
+  
+  .flex-container img {
+    width: 26px; 
+    height: 26px;
+    padding-left: 10px;
+    
+    
+  }
+
+  .flex-container .lupa {
+    margin: 0; 
+    position: relative; 
+    padding-right: 10px; 
+    padding-left: 10px;
+  }
+  
+  .flex-container .lupa::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #ccc; 
+    right: 0;
+    top: 0;
+  }
