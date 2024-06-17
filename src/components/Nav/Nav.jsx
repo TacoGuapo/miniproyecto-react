@@ -8,14 +8,14 @@ function Nav({ setOpenModal, searchCity, apartments }) {
   return (
     <div className='nav'>
   <picture className='main-logo'>
-    <img src="./public/logo.png" alt="Logo" />
+    <img src="logo.png" alt="Logo" />
   </picture>
   <div className='open-modal'>
     <button className="button-modal" onClick={() => setOpenModal(true)}>
       <div className="flex-container">
         <h3>{currentCity ? `${currentCity.city}, ${currentCity.country}` : 'Select City'}</h3>
         <span className='lupa'>Add Guests</span>
-        <img src="./public/lupa.png" alt="lupa" />
+        <img src="/lupa.png" alt="lupa" />
       </div>
     </button>
   </div>

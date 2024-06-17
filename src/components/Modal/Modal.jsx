@@ -37,7 +37,7 @@ function Modal({ searchCity, setOpenModal, setSearchCity, originalApartments, se
             <p><strong>GUESTS </strong></p>
             <p> Add Guests</p>
           </div>
-          <button  className="searchButton" onClick={search_apartament}><img src="./public/lupa.png" alt="" />Search</button>
+          <button  className="searchButton" onClick={search_apartament}><img src="/lupa.png" alt="" />Search</button>
         </div>
         <div>
 
